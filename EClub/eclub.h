@@ -1,6 +1,8 @@
 #ifndef ECLUB_H
 #define ECLUB_H
 
+// simple for learning git
+
 #include <QMainWindow>
 #include "connecttobd.h"
 #include <QSqlQueryModel>
