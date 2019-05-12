@@ -2,4 +2,8 @@ nothing
 vadym
 stashuk
 
+<<<<<<< HEAD
 new branch new_f
+=======
+branch master
+>>>>>>> master
