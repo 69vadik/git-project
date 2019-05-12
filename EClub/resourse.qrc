@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/Resourse">
+        <file>Resourses/Chat.png</file>
+        <file>Resourses/Embleme.png</file>
+        <file>Resourses/Favorite.png</file>
+        <file>Resourses/Level.png</file>
+        <file>Resourses/level_2.png</file>
+        <file>Resourses/Notes.png</file>
+        <file>Resourses/Connect.png</file>
+    </qresource>
+</RCC>

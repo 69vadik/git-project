@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>EClub</class>
+ <widget class="QMainWindow" name="EClub">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>809</width>
+    <height>501</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>EClub</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="resourse.qrc">
+    <normaloff>:/Resourse/Resourses/Embleme.png</normaloff>:/Resourse/Resourses/Embleme.png</iconset>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QPushButton" name="Learn_Words">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>121</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Broadway</family>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Learn words</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Irregular_Verb">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>50</y>
+      <width>121</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Broadway</family>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Irregular verb</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Slang">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>90</y>
+      <width>121</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Broadway</family>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Slang</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Read_Books">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>130</y>
+      <width>121</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Broadway</family>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Read books</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Check_The_Writing">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>170</y>
+      <width>121</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Broadway</family>
+      <pointsize>9</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Check the writing</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Dialugues">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>210</y>
+      <width>121</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Broadway</family>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Dialogues</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Proverb">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>250</y>
+      <width>121</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Broadway</family>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Proverb</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Grammar">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>290</y>
+      <width>121</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Broadway</family>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Grammar</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>809</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuMenu">
+    <property name="title">
+     <string>Menu</string>
+    </property>
+    <addaction name="actionMy_notes"/>
+    <addaction name="actionFavorite"/>
+    <addaction name="actionShow_all_words"/>
+    <addaction name="actionOpen_the_chat"/>
+    <addaction name="actionConnect_to_Data_Base"/>
+   </widget>
+   <widget class="QMenu" name="menuStatistic">
+    <property name="title">
+     <string>Statistic</string>
+    </property>
+    <widget class="QMenu" name="menuCount_learned_words">
+     <property name="title">
+      <string>Count learned words</string>
+     </property>
+     <addaction name="actionLevel"/>
+    </widget>
+    <addaction name="menuCount_learned_words"/>
+    <addaction name="actionMax_count_words"/>
+    <addaction name="actionLeft_to_study"/>
+    <addaction name="actionFull_statistic"/>
+   </widget>
+   <widget class="QMenu" name="menuSetting">
+    <property name="title">
+     <string>Setting</string>
+    </property>
+    <addaction name="actionSet_the_count_of_words_for_learn"/>
+    <addaction name="actionDelete_data"/>
+   </widget>
+   <widget class="QMenu" name="menuAbout_us">
+    <property name="title">
+     <string>About us</string>
+    </property>
+   </widget>
+   <addaction name="menuMenu"/>
+   <addaction name="menuStatistic"/>
+   <addaction name="menuSetting"/>
+   <addaction name="menuAbout_us"/>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>RightToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actionConnect_to_Data_Base"/>
+   <addaction name="actionLevel"/>
+   <addaction name="actionMy_notes"/>
+   <addaction name="actionFavorite"/>
+   <addaction name="actionOpen_the_chat"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="actionMy_notes">
+   <property name="icon">
+    <iconset resource="resourse.qrc">
+     <normaloff>:/Resourse/Resourses/Notes.png</normaloff>:/Resourse/Resourses/Notes.png</iconset>
+   </property>
+   <property name="text">
+    <string>My notes</string>
+   </property>
+  </action>
+  <action name="actionFavorite">
+   <property name="icon">
+    <iconset resource="resourse.qrc">
+     <normaloff>:/Resourse/Resourses/Favorite.png</normaloff>:/Resourse/Resourses/Favorite.png</iconset>
+   </property>
+   <property name="text">
+    <string>Favorite</string>
+   </property>
+  </action>
+  <action name="actionShow_all_words">
+   <property name="text">
+    <string>Show all words</string>
+   </property>
+  </action>
+  <action name="actionOpen_the_chat">
+   <property name="icon">
+    <iconset resource="resourse.qrc">
+     <normaloff>:/Resourse/Resourses/Chat.png</normaloff>:/Resourse/Resourses/Chat.png</iconset>
+   </property>
+   <property name="text">
+    <string>Open the chat</string>
+   </property>
+  </action>
+  <action name="actionMax_count_words">
+   <property name="text">
+    <string>Max count words</string>
+   </property>
+  </action>
+  <action name="actionLeft_to_study">
+   <property name="text">
+    <string>Left to study</string>
+   </property>
+  </action>
+  <action name="actionFull_statistic">
+   <property name="text">
+    <string>Full statistic</string>
+   </property>
+  </action>
+  <action name="actionSet_the_count_of_words_for_learn">
+   <property name="text">
+    <string>Set the count of words for learn</string>
+   </property>
+  </action>
+  <action name="actionDelete_data">
+   <property name="text">
+    <string>Delete data</string>
+   </property>
+  </action>
+  <action name="actionLevel">
+   <property name="icon">
+    <iconset resource="resourse.qrc">
+     <normaloff>:/Resourse/Resourses/Level.png</normaloff>:/Resourse/Resourses/Level.png</iconset>
+   </property>
+   <property name="text">
+    <string>Level</string>
+   </property>
+  </action>
+  <action name="actionConnect_to_Data_Base">
+   <property name="icon">
+    <iconset resource="resourse.qrc">
+     <normaloff>:/Resourse/Resourses/Connect.png</normaloff>:/Resourse/Resourses/Connect.png</iconset>
+   </property>
+   <property name="text">
+    <string>Connect to Data_Base</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="resourse.qrc"/>
+ </resources>
+ <connections/>
+</ui>
